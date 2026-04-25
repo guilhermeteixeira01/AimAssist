@@ -2,7 +2,7 @@
     display: flex;
     min-height: 100vh;
     padding: 80px;
-    color: white;
+    color: var(--text-color);
 
     align-items: center;
     justify-content: space-between;
@@ -31,13 +31,13 @@
 }
 
 .left p {
-    color: #9ca3af;
+    color: var(--text-color-secondary);
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
 .btn-primary {
-    background: linear-gradient(90deg, #16a34a, #22c55e);
+    background: linear-gradient(90deg, #16a34a, var(--green-text));
     border: 1px solid transparent;
     padding: 14px 24px;
     border-radius: 8px;
@@ -47,26 +47,24 @@
     cursor: pointer;
     box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
     width: 100%;
+    transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
-    box-shadow: 0 0 30px rgba(34, 197, 94, 0.6);
+.btn-primary:hover,
+.btn-secondary:hover {
+    scale: 1.05;
 }
 
 .btn-secondary {
-    background: transparent;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.01));
     border: 1px solid #374151;
     padding: 14px 24px;
     border-radius: 8px;
     color: #d1d5db;
     cursor: pointer;
     width: 100%;
-}
 
-.btn-secondary:hover {
-    background: #374151;
-    border-color: #4b5563;
-    color: #e5e7eb;
+    transition: all 0.3s ease;
 }
 
 /* RIGHT */
@@ -90,6 +88,8 @@
     display: flex;
     flex-direction: column;
 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.01));
+
     box-shadow:
         0 0 40px rgba(0, 255, 150, 0.15),
         inset 0 0 20px rgba(0, 255, 150, 0.05);
@@ -112,12 +112,12 @@
 }
 
 .tabs span:hover {
-    color: #22c55e;
+    color: var(--green-text);
 }
 
 .tabs .active {
-    color: #22c55e;
-    text-shadow: 0 0 8px #22c55e;
+    color: var(--green-text);
+    text-shadow: 0 0 8px var(--green-text);
 }
 
 /* TERMINAL */
@@ -125,7 +125,7 @@ pre {
     flex: 1;
     padding: 20px;
     font-size: 14px;
-    color: #22c55e;
+    color: var(--green-text);
     font-family: "Courier New", monospace;
     white-space: pre-wrap;
 
@@ -156,6 +156,7 @@ pre::after {
 
 @media (max-width: 768px) {
     .container {
+        margin-top: 50px;
         padding: 50px;
         flex-direction: column;
         gap: 100px;

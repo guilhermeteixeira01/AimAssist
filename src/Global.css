@@ -1,3 +1,4 @@
+@import url('css/header.css');
 @import url('css/home.css');
 
 * {
@@ -7,5 +8,13 @@
 }
 
 body {
-  background: radial-gradient(circle at center, #050510, #000);
+  background: radial-gradient(circle at center, var(--primary-color), var(--secondary-color));
+}
+
+:root {
+  --primary-color: #050510;
+  --secondary-color: #000;
+  --text-color: snow;
+  --text-color-secondary: #9ca3af;
+  --green-text: #22c55e;
 }
