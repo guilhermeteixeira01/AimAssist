@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aimassist/static/css/main.66c3296b.css",
+    "main.js": "/aimassist/static/js/main.ae150df2.js",
+    "static/js/453.399fce6c.chunk.js": "/aimassist/static/js/453.399fce6c.chunk.js",
+    "index.html": "/aimassist/index.html",
+    "main.66c3296b.css.map": "/aimassist/static/css/main.66c3296b.css.map",
+    "main.ae150df2.js.map": "/aimassist/static/js/main.ae150df2.js.map",
+    "453.399fce6c.chunk.js.map": "/aimassist/static/js/453.399fce6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66c3296b.css",
+    "static/js/main.ae150df2.js"
+  ]
+}
