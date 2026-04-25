@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AimAssist/static/css/main.66c3296b.css",
-    "main.js": "/AimAssist/static/js/main.ec4ee958.js",
+    "main.css": "/AimAssist/static/css/main.accceee5.css",
+    "main.js": "/AimAssist/static/js/main.7acf9626.js",
     "static/js/453.399fce6c.chunk.js": "/AimAssist/static/js/453.399fce6c.chunk.js",
     "index.html": "/AimAssist/index.html",
-    "main.66c3296b.css.map": "/AimAssist/static/css/main.66c3296b.css.map",
-    "main.ec4ee958.js.map": "/AimAssist/static/js/main.ec4ee958.js.map",
+    "main.accceee5.css.map": "/AimAssist/static/css/main.accceee5.css.map",
+    "main.7acf9626.js.map": "/AimAssist/static/js/main.7acf9626.js.map",
     "453.399fce6c.chunk.js.map": "/AimAssist/static/js/453.399fce6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c3296b.css",
-    "static/js/main.ec4ee958.js"
+    "static/css/main.accceee5.css",
+    "static/js/main.7acf9626.js"
   ]
 }
