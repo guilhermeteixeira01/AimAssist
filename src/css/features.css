@@ -1,0 +1,96 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 60px;
+}
+
+/* CARD */
+.card {
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.01));
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    border-radius: 14px;
+    overflow: hidden;
+    color: white;
+
+    backdrop-filter: blur(12px);
+
+    transition: 0.4s ease;
+    box-shadow:
+        0 0 20px rgba(0, 255, 150, 0.05),
+        inset 0 0 20px rgba(0, 255, 150, 0.02);
+}
+
+/* 🔥 borda glow animada */
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    padding: 1px;
+
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(0, 255, 150, 0.4),
+            transparent);
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow:
+        0 0 40px rgba(0, 255, 150, 0.15),
+        0 0 80px rgba(0, 255, 150, 0.05);
+}
+
+/* 🎥 MEDIA */
+.media {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.01));
+}
+
+/* zoom suave */
+.media img,
+.media video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.card:hover .media img,
+.card:hover .media video {
+    transform: scale(1.08);
+}
+
+/* TEXTO */
+.card h3 {
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    color: #9ca3af;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* TAG */
+.tag {
+    margin: 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #22c55e;
+    text-shadow: 0 0 8px rgba(34, 197, 94, 0.8);
+}

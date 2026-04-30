@@ -156,7 +156,6 @@ pre::after {
 
 @media (max-width: 768px) {
     .container {
-        margin-top: 50px;
         padding: 50px;
         flex-direction: column;
         gap: 100px;

@@ -2,14 +2,16 @@ import "./Global.css";
 
 import Background from "./components/background";
 import Home from "./components/home";
-import Header from "./components/header";
+import Features from "./components/features";
+import Platforms from "./components/games";
 
 function App() {
   return (
     <div className="App">
       <Background />
-      <Header />
       <Home />
+      <Features />
+      <Platforms />
     </div>
   );
 }

@@ -1,5 +1,6 @@
-@import url('css/header.css');
 @import url('css/home.css');
+@import url('css/features.css');
+@import url('css/games.css');
 
 * {
   margin: 0;
