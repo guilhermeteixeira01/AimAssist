@@ -13,7 +13,7 @@ export default function Background() {
             const dpr = window.devicePixelRatio || 1;
 
             width = window.innerWidth;
-            height = window.innerHeight;
+            height = document.documentElement.clientHeight; // 🔥 mais estável no mobile
 
             canvas.width = width * dpr;
             canvas.height = height * dpr;
@@ -108,6 +108,7 @@ export default function Background() {
                 p.y += velocity;
 
                 if (p.y > height) {
+                    // 🔥 reaproveita partícula (não recria tudo)
                     Object.assign(p, createParticle(), {
                         y: -20,
                         speed: 0
@@ -121,9 +122,21 @@ export default function Background() {
         generateParticles();
         draw();
 
+        // 🔥 controle inteligente de resize (ignora scroll mobile)
+        let lastHeight = height;
+
         const handleResize = () => {
-            resizeCanvas();
-            generateParticles();
+            const newWidth = window.innerWidth;
+            const newHeight = document.documentElement.clientHeight;
+
+            // só atualiza se mudou de verdade (ex: rotação)
+            if (
+                Math.abs(newHeight - lastHeight) > 120 ||
+                Math.abs(newWidth - width) > 120
+            ) {
+                resizeCanvas();
+                lastHeight = newHeight;
+            }
         };
 
         window.addEventListener("resize", handleResize);
@@ -140,8 +153,8 @@ export default function Background() {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                zIndex: -1,          // 🔥 sempre atrás
-                pointerEvents: "none" // 🔥 não bloqueia clique
+                zIndex: -1,
+                pointerEvents: "none"
             }}
         />
     );

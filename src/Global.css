@@ -25,3 +25,27 @@ body {
   --text-color-secondary: #9ca3af;
   --green-text: #22c55e;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00aaff, #0044ff);
+    border-radius: 20px;
+    border: 2px solid #050816;
+    box-shadow:
+        0 0 6px #00aaff,
+        inset 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #33bbff, #3366ff);
+    box-shadow:
+        0 0 10px #33bbff,
+        inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
