@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AimAssist/static/css/main.ceb7f3b1.css",
-    "main.js": "/AimAssist/static/js/main.6bf591df.js",
+    "main.css": "/AimAssist/static/css/main.214a0653.css",
+    "main.js": "/AimAssist/static/js/main.a2490d1e.js",
     "static/js/453.399fce6c.chunk.js": "/AimAssist/static/js/453.399fce6c.chunk.js",
     "static/media/reação.gif": "/AimAssist/static/media/reação.0934a67bf0c44371660a.gif",
     "static/media/pubg.gif": "/AimAssist/static/media/pubg.d4c7e367ac772e535e04.gif",
@@ -15,12 +15,12 @@
     "static/media/fortnite.gif": "/AimAssist/static/media/fortnite.7760b0e004294ffa5350.gif",
     "static/media/battlefield.gif": "/AimAssist/static/media/battlefield.5a9295bb8f0f487ead37.gif",
     "index.html": "/AimAssist/index.html",
-    "main.ceb7f3b1.css.map": "/AimAssist/static/css/main.ceb7f3b1.css.map",
-    "main.6bf591df.js.map": "/AimAssist/static/js/main.6bf591df.js.map",
+    "main.214a0653.css.map": "/AimAssist/static/css/main.214a0653.css.map",
+    "main.a2490d1e.js.map": "/AimAssist/static/js/main.a2490d1e.js.map",
     "453.399fce6c.chunk.js.map": "/AimAssist/static/js/453.399fce6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb7f3b1.css",
-    "static/js/main.6bf591df.js"
+    "static/css/main.214a0653.css",
+    "static/js/main.a2490d1e.js"
   ]
 }
