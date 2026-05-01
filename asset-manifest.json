@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/AimAssist/static/css/main.2d7fbad3.css",
-    "main.js": "/AimAssist/static/js/main.7acf9626.js",
+    "main.css": "/AimAssist/static/css/main.ceb7f3b1.css",
+    "main.js": "/AimAssist/static/js/main.6bf591df.js",
     "static/js/453.399fce6c.chunk.js": "/AimAssist/static/js/453.399fce6c.chunk.js",
+    "static/media/reação.gif": "/AimAssist/static/media/reação.0934a67bf0c44371660a.gif",
+    "static/media/pubg.gif": "/AimAssist/static/media/pubg.d4c7e367ac772e535e04.gif",
+    "static/media/recuo.gif": "/AimAssist/static/media/recuo.1a01da2197b0bf13cd21.gif",
+    "static/media/apex.gif": "/AimAssist/static/media/apex.62dc5d76de6e999462f3.gif",
+    "static/media/tracking.gif": "/AimAssist/static/media/tracking.0cf63d1db4c5352f43a4.gif",
+    "static/media/sensi.gif": "/AimAssist/static/media/sensi.d97c0fd116b5d946d039.gif",
+    "static/media/farlight.gif": "/AimAssist/static/media/farlight.57bac71e6ea12d7a4845.gif",
+    "static/media/warzone.gif": "/AimAssist/static/media/warzone.0a58d34bd6d2813825a8.gif",
+    "static/media/delta force.gif": "/AimAssist/static/media/delta force.4c61e5aed26712e95c8e.gif",
+    "static/media/fortnite.gif": "/AimAssist/static/media/fortnite.7760b0e004294ffa5350.gif",
+    "static/media/battlefield.gif": "/AimAssist/static/media/battlefield.5a9295bb8f0f487ead37.gif",
     "index.html": "/AimAssist/index.html",
-    "main.2d7fbad3.css.map": "/AimAssist/static/css/main.2d7fbad3.css.map",
-    "main.7acf9626.js.map": "/AimAssist/static/js/main.7acf9626.js.map",
+    "main.ceb7f3b1.css.map": "/AimAssist/static/css/main.ceb7f3b1.css.map",
+    "main.6bf591df.js.map": "/AimAssist/static/js/main.6bf591df.js.map",
     "453.399fce6c.chunk.js.map": "/AimAssist/static/js/453.399fce6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d7fbad3.css",
-    "static/js/main.7acf9626.js"
+    "static/css/main.ceb7f3b1.css",
+    "static/js/main.6bf591df.js"
   ]
 }
